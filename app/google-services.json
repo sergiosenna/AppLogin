@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "409806959484",
+    "firebase_url": "https://meuapptecnico.firebaseio.com",
+    "project_id": "meuapptecnico",
+    "storage_bucket": "meuapptecnico.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409806959484:android:fd3b476a7a04dda4",
+        "android_client_info": {
+          "package_name": "sl.tecnico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409806959484-ft4rbrsec7oovt5fvjsmn7rnlujjo6uu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sl.tecnico",
+            "certificate_hash": "86ff888a369a5c5d303193fad273376e57f4ae8c"
+          }
+        },
+        {
+          "client_id": "409806959484-ac9v645pchpm5l6357r8nqevk1euar3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZPw67XVUI9BgTM4XaOdPQPvc3frCjAHU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409806959484-ac9v645pchpm5l6357r8nqevk1euar3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
