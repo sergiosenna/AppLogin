@@ -34,12 +34,12 @@
             android:label="@string/title_activity_criar_conta"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.MainActivity"
-            android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".Activity.ResetActivity"
             android:label="@string/title_activity_reset"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

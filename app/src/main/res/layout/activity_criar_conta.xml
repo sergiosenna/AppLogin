@@ -19,14 +19,13 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
-            android:layout_marginTop="10dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/logonome" />
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:layout_marginTop="120dp">
+            android:layout_marginTop="100dp">
 
 
             <EditText
@@ -44,7 +43,7 @@
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:layout_marginTop="200dp">
+            android:layout_marginTop="180dp">
 
 
             <EditText
@@ -61,7 +60,7 @@
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:layout_marginTop="280dp">
+            android:layout_marginTop="260dp">
 
 
             <EditText
@@ -78,7 +77,7 @@
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:layout_marginTop="360dp">
+            android:layout_marginTop="340dp">
 
 
             <EditText
@@ -95,7 +94,7 @@
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:layout_marginTop="440dp">
+            android:layout_marginTop="420dp">
 
 
             <EditText
@@ -113,22 +112,15 @@
         <Button
             android:id="@+id/bttGravar"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="40dp"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:layout_marginTop="520dp"
+            android:layout_marginTop="500dp"
             android:background="@color/colorPrimaryDark"
             android:text="Gravar"
             android:textSize="20dp" />
 
     </RelativeLayout>
-
-
-
-
-
-
-
 
 
 </RelativeLayout>
