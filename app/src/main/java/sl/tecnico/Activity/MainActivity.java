@@ -1,5 +1,6 @@
 package sl.tecnico.Activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -82,19 +83,35 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
 
-        } else if (id == R.id.nav_slideshow) {
+        switch (id) {
 
-        } else if (id == R.id.nav_manage) {
+            case R.id.nav_camera:
 
-        } else if (id == R.id.nav_share) {
+                break;
+            case R.id.nav_gallery:
 
-        } else if (id == R.id.nav_send) {
+                break;
+
+            case R.id.concluirCadastro:
+
+                Intent abrirconcluirCadastro = new Intent(MainActivity.this, ConcluirCadastro.class);
+                startActivity(abrirconcluirCadastro);
+                break;
+
+            case R.id.nav_manage:
+
+                break;
+            case R.id.nav_share:
+
+                break;
+
+            case R.id.nav_send:
 
         }
+
+
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
