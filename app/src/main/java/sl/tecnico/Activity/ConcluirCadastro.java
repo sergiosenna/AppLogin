@@ -32,11 +32,8 @@ public class ConcluirCadastro extends AppCompatActivity {
     private EditText edtDtNascimento;
   //  private Spinner spinnerSexo;
   //  private Spinner spinnerEstadoCivil;
-    private EditText edtCep;
-    private EditText edtEndereco;
-    private EditText edtComplemento;
-    private EditText edtNumero;
-    private EditText edtBairro;
+    private EditText edtCep,edtEndereco,edtComplemento,edtNumero,edtBairro;
+
   //  private Spinner spinnerUF;
    // private Spinner spinnerCidade;
     private Button bttConcluir;
